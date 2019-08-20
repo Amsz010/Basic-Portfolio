@@ -26,13 +26,17 @@ h1 {
 }
 
 nav {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	
+
 
 }
 
 h4 {
-	margin: 10px;
+	margin: auto;
 	float: right;
 
 }
