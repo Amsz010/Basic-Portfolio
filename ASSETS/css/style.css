@@ -1,5 +1,5 @@
 body {
-	background-color: orange;
+	background-image: url("../images/bananas.png");
 	width: 960px;
 
 
@@ -8,7 +8,7 @@ body {
 header {
 	background-color: #ffffff;
 	border-bottom-style: solid;
-	border-bottom-width: 5px;
+	border-bottom-width: 2px;
 	border-bottom-color: gray;
 	width: 960px;
 	overflow: auto;
@@ -18,24 +18,19 @@ header {
 h1 {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	padding: 10px;
-	border-style: solid;
-	border-width: 5px;
 	float: left;
-	padding: 10px;
-
-
-	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	margin-left: 10px;
+	color: white;
 }
-
-
 
 nav {
 	float: right;
-	padding: 10px;
+	
 
 }
-
 
 h4 {
 	margin: 10px;
@@ -50,6 +45,31 @@ section {
 	float: left;
 	overflow: auto;
 	clear: left;
+	margin: 10px;
+}
+
+article{
+	margin: 0px;
+	padding: 20px;
+}
+
+h2 {
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+.profilepic1 {
+	float: left;
+	margin: 10px;
+}
+
+.profilepic2 {
+	float: right;
+	margin: 10px;
+	width: 200px;
 }
 
 aside {
@@ -57,6 +77,8 @@ aside {
 	background-color: #ffffff;
 	float: right;
 	overflow: auto;
+	margin: 10px;
+
 
 }
 
