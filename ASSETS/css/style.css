@@ -2,7 +2,6 @@ body {
 	background-image: url("../images/bananas.png");
 	width: 960px;
 
-
 }
 
 header {
@@ -59,6 +58,8 @@ h2 {
 	border-bottom-color: gray;
 	margin: 0px;
 	padding-bottom: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
 
 .profilepic1 {
@@ -77,9 +78,26 @@ aside {
 	background-color: #ffffff;
 	float: right;
 	overflow: auto;
-	margin: 10px;
+	margin-top: 10px;
 
+}
 
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+	text-align: center;
+	margin: 0px;
+}
+
+div{
+
+}
+
+.medialink{
+	padding: 10px;
 }
 
 footer {
