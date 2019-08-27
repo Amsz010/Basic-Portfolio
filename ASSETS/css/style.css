@@ -1,17 +1,24 @@
 body {
 	background-image: url("../images/bananas.png");
-	width: 960px;
+	margin: auto;
+
 
 }
 
-header {
+.headblock{
 	background-color: #ffffff;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	border-bottom-color: gray;
+
+	
+	
+}
+header {
 	width: 960px;
 	overflow: auto;
-
+	
+	margin: auto;
 }
 
 h1 {
@@ -20,25 +27,56 @@ h1 {
 	float: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding: 20px;
+	line-height: 50px;
+	height: 50px;
 	margin-left: 10px;
 	color: white;
+	padding: 20px 30px;
 }
 
-nav {
+.navblock{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	float: right;
+	
 	margin-top: 0px;
 	margin-bottom: 0px;
 	
+	font-size: 20px;
+	overflow: auto;
+}
+
+nav {
+	float: right;
+}
 
 
+nav > a {
+	
+	padding: 0px 20px;
+	line-height: 90px;
+	height: 90px;
+
+	
+}
+
+.box {
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-left-color: gray;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: gray;
 }
 
 h4 {
 	margin: auto;
 	float: right;
 
+}
+
+.hokage {
+	margin: auto;
+	width: 960px;
+	overflow: auto;
 }
 
 
@@ -49,11 +87,16 @@ section {
 	overflow: auto;
 	clear: left;
 	margin: 10px;
+	margin-bottom: 400px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	
 }
 
 article{
 	margin: 0px;
-	padding: 20px;
+	padding: 30px;
 }
 
 h2 {
@@ -66,15 +109,21 @@ h2 {
 	color: #4aaaa5;
 }
 
+article > p {
+	line-height: 30px;
+}
+
 .profilepic1 {
 	float: left;
-	margin: 10px;
+	margin: 20px 10px 0px 0px;
+	overflow: auto;
+	
 }
 
 .profilepic2 {
 	float: right;
 	margin: 10px;
-	width: 200px;
+	width: 225px;
 }
 
 aside {
@@ -83,7 +132,14 @@ aside {
 	float: right;
 	overflow: auto;
 	margin-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
 
+}
+
+.asideblock{
+	padding: 20px;
 }
 
 h3 {
@@ -94,18 +150,20 @@ h3 {
 	border-bottom-color: gray;
 	text-align: center;
 	margin: 0px;
+	padding: 0px 20px 20px 20px;
 }
 
-div{
 
+.social{
+	padding: 20px 5px 5px 5px;
 }
 
 .medialink{
-	padding: 10px;
+	padding: 0px 7px;
 }
 
-footer {
- 	clear: both;
+.footblock{
+	clear: both;
  	background-color: #666;
  	text-align: center;
  	color: #ffffff;
@@ -114,6 +172,15 @@ footer {
  	border-top-color: #4aaaa5;
  	padding: 40px;
  	font-weight: lighter;
+
+ 	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+}
+footer {
+ 	margin: auto;
  	width: 960px;
+ 	
 }
 
